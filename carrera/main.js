@@ -6,7 +6,7 @@ let concursante1 = new Concursante("Alex");
 let concursante2 = new Concursante("Piper");
 let turno = 1;
 
-for(let lugar = 0; lugar < 100; lugar++)
+for(let lugar = 0; lugar <= 100; lugar++)
 {
     console.log(`Lanzamiento ${turno}`);
     let turno1 = Dado.probablidad(dado1.lanzar());
